@@ -1,0 +1,51 @@
+body {
+	background-color: #9ECBC9;
+}
+
+.pictureBox {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: 3px solid #465F84;
+  border-radius: 50%;
+  background-color: #D9E3EE;
+}
+
+.align {
+	text-align: center;
+}
+.title {
+  color: black;
+  font-size: 55px;
+  text-align: center;
+  font-family: Georgia, Times, Serif;
+}
+#reset { 
+	height: 75px;
+	width: 206px;
+	font-size: 30px;
+	background-color: #D9E3EE;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+	border: 4px solid #465F84;
+	border-radius: 15px;
+}
+
+span {
+	color: black;
+	font-size: 30px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+	.pictureBox {
+	  height: 130px;
+	  width: 130px;
+	  margin: 10px;
+	  border: 3px solid #465F84;
+	  border-radius: 50%;
+	  background-color: #D9E3EE;
+	}
+	
+}

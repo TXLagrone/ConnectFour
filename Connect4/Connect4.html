@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Connect Four </title>
+		<script src="Connect4JS.js"> </script>
+		<link rel="stylesheet" href="Connect4CSS.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body> 
+		<div id="center">
+			<h1 class="title"> Play Connect 4! </h1>
+			<div id="aLine"></div>
+		</div>
+			<div class="align"> 
+			<input type="image" id="box_r0c0" class="pictureBox" onClick="clicked(this,0,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c1" class="pictureBox" onClick="clicked(this, 0, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c2" class="pictureBox" onClick="clicked(this, 0, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c3" class="pictureBox" onClick="clicked(this,0,3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c4" class="pictureBox" onClick="clicked(this, 0, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c5" class="pictureBox" onClick="clicked(this, 0, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r0c6" class="pictureBox" onClick="clicked(this, 0, 6)" src="whiteSquare.jpg" />
+		</div>
+		<div class="align"> 
+			<input type="image" id="box_r1c0" class="pictureBox" onClick="clicked(this,1,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c1" class="pictureBox" onClick="clicked(this, 1, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c2" class="pictureBox" onClick="clicked(this, 1, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c3" class="pictureBox" onClick="clicked(this,1,3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c4" class="pictureBox" onClick="clicked(this, 1, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c5" class="pictureBox" onClick="clicked(this, 1, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r1c6" class="pictureBox" onClick="clicked(this, 1, 6)" src="whiteSquare.jpg" />
+		</div>
+		<div class="align"> 
+			<input type="image" id="box_r2c0" class="pictureBox" onClick="clicked(this,2,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c1" class="pictureBox" onClick="clicked(this, 2, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c2" class="pictureBox" onClick="clicked(this, 2, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c3" class="pictureBox" onClick="clicked(this,2, 3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c4" class="pictureBox" onClick="clicked(this, 2, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c5" class="pictureBox" onClick="clicked(this, 2, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r2c6" class="pictureBox" onClick="clicked(this, 2, 6)" src="whiteSquare.jpg" />
+		</div>
+		<div class="align"> 
+			<input type="image" id="box_r3c0" class="pictureBox" onClick="clicked(this,3,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c1" class="pictureBox" onClick="clicked(this, 3, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c2" class="pictureBox" onClick="clicked(this, 3, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c3" class="pictureBox" onClick="clicked(this,3, 3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c4" class="pictureBox" onClick="clicked(this, 3, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c5" class="pictureBox" onClick="clicked(this, 3, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r3c6" class="pictureBox" onClick="clicked(this, 3, 6)" src="whiteSquare.jpg" />
+		</div>
+		<div class="align"> 
+			<input type="image" id="box_r4c0" class="pictureBox" onClick="clicked(this,4,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c1" class="pictureBox" onClick="clicked(this, 4, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c2" class="pictureBox" onClick="clicked(this, 4, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c3" class="pictureBox" onClick="clicked(this,4,3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c4" class="pictureBox" onClick="clicked(this, 4, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c5" class="pictureBox" onClick="clicked(this, 4, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r4c6" class="pictureBox" onClick="clicked(this, 4, 6)" src="whiteSquare.jpg" />
+		</div>
+		<div class="align"> 
+			<input type="image" id="box_r5c0" class="pictureBox" onClick="clicked(this,5,0)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c1" class="pictureBox" onClick="clicked(this, 5, 1)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c2" class="pictureBox" onClick="clicked(this, 5, 2)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c3" class="pictureBox" onClick="clicked(this,5,3)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c4" class="pictureBox" onClick="clicked(this, 5, 4)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c5" class="pictureBox" onClick="clicked(this, 5, 5)" src="whiteSquare.jpg" />
+			<input type="image" id="box_r5c6" class="pictureBox" onClick="clicked(this, 5, 6)" src="whiteSquare.jpg" />
+		</div>		
+		<div class="align">
+			<span id="p1Wins"> P1 Wins: 0 </span>
+			<input type="button" id="reset" onClick="reset()" value="Reset" />	
+			<span id="p2Wins"> P2 Wins: 0 </span>
+		</div>
+	</body>
+</html>
